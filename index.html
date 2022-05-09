@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Pokemongo.css">
+</head>
+<header>
+  <div class="barra1">
+    
+    <div class="languague-container" >
+      <img src="./img/united-states.png">
+      <p>English</p>
+    </div>
+
+    <div class="buttons1">
+      <a href="#" class="buttonClass1"> Like 20K <img src="./img/like-svgrepo-com (1).svg" alt=""></a>
+      <a href="#" class="buttonClass2">Share</a>
+    </div>
+  </div>
+
+<div class="barra2">
+    <img src="./img/menu-svgrepo-com.svg" alt="">  Pokemon GO - All Pókemon
+    <img src="./img/search-svgrepo-com.svg" alt="" class="botonbusqueda" >
+</div>
+<div>
+    <form onsubmit="event.preventDefault();" role="search">
+        <label for="search">Search for stuff</label>
+        <input type="search" placeholder="Search for a pokemon eg, Dragonite" autofocus required id="txt_escojepokemon1"/>
+        <button type="submit" id="btn_botonconfirmar1">Go</button>  
+        <div id="canvas1"></div>  
+
+        <label for="search">Search for stuff</label>
+        <input type="search" placeholder="Search for a pokemon eg, Dragonite" autofocus required id="txt_escojepokemon2"/>
+        <button type="submit" id="btn_botonconfirmar2">Go</button>  
+        <div id="canvas2"></div>  
+
+        <script src="./Pokemongo.js"></script>
+      </form>
+</div>
+<div class="formularios"> 
+
+  Type
+  <form name="formulario" method="post">
+    <select name="combo">
+ 
+      <option value="1"selected>Normal</option>
+      <option value="2">Fire</option> 
+      <option value="3">Water</option>
+      <option value="4">Grass</option>
+      <option value="5">Electric</option>
+      <option value="6">Ice</option>
+      <option value="7">Fighting</option>
+      <option value="8">Poison</option>
+      <option value="9">Ground</option>
+      <option value="10">Flying</option>
+      <option value="11">Psychic</option>
+      <option value="12">Bug</option>
+      <option value="13">Rock</option>
+      <option value="14">Ghost</option>
+      <option value="15">Dark</option>
+      <option value="16">Dragon</option>
+      <option value="17">Steel</option>
+      <option value="18">Fire</option> 
+      <option value="19">Fairy</option> 
+    </select>
+  </form>
+
+    Generation
+  <form name="formulario" method="post" action="http://pagina.com/send.php">
+    <select name="combo">
+    
+      <option value="1"selected>Generation 1</option>
+      <option value="2">Generation 2</option> 
+      <option value="3">Generation 3</option>
+      <option value="4">Generation 4</option>
+      <option value="5">Generation 5</option>
+      <option value="6">Generation 6</option>
+      <option value="7">Generation 7</option>
+      <option value="8">Generation 8</option>
+
+    </select>
+  </form>
+
+    Egg
+  <form name="formulario" method="post" action="http://pagina.com/send.php">
+    <select name="combo">
+    
+      <option value="1" selected>Planta</option>
+      <option value="2">Bicho</option> 
+      <option value="3">Volador</option>
+      <option value="4">Humanoide</option>
+      <option value="5">Mineral</option>
+      <option value="6">Amorfo</option>
+      <option value="7">Campo</option>
+      <option value="8">Agua 1</option>
+      <option value="9">Agua 2</option>
+      <option value="10">Agua 3</option>
+      <option value="11">Monstruo</option>
+      <option value="12">Hada</option>
+      <option value="13">Dragón</option>
+
+    </select>
+  </form>
+
+    Obtainability
+  <form name="formulario" method="post" action="http://pagina.com/send.php">
+    <select name="combo">
+    
+      <option value="1"selected>Opción 1</option>
+      <option value="2">Opción 2</option> 
+      <option value="3">Opción 3</option>
+    </select>
+  </form>
+</div>
+  <div class="botones1">
+    <div class="kanto">
+    <a href="#" class="buttonClass">Kanto</a>
+    </div>
+    <div class="Johto">
+    <a href="#" class="buttonClass">Johto</a>
+    </div>
+    <div class="Hoenn">
+    <a href="#" class="buttonClass">Hoenn</a>
+    </div>
+    <div class="Sinnoh">
+    <a href="#" class="buttonClass">Sinnoh</a>
+  </div>
+</div>
+<div>
+  <div class="botones2">
+    <div class="Unova">
+    <a href="#" class="buttonClass">Unova</a>
+    </div >
+    <div class="Kalos">
+    <a href="#" class="buttonClass">Kalos</a>
+    </div >
+    <div class="Alola">
+    <a href="#" class="buttonClass">Alola</a>
+    </div >
+    <div class="Galar">
+    <a href="#" class="buttonClass">Galar</a>
+  </div>
+
+</div>
+</header>
+<body>
+  <main class="cards-container">
+
+    <div>
+      <p>001</p><h4>Bulbasaur</h4>
+      <div class="imgpokemon"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png" alt="">
+      </div>
+      <p class="type-001" >planta</p> <p class="type-002" > veneno</p>
+    </div>
+
+    <div>
+      <p>002</p><h4>Ivysaur</h4>
+      <div class="imgpokemon"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png" alt="">
+      </div>
+      <p class="type-001" >planta</p> <p class="type-002" > veneno</p>
+     </div>
+
+    <div>
+      <p>003</p><h4>Venusaur</h4>
+      <div class="imgpokemon"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png" alt="">
+      </div>
+      <p class="type-001" >planta</p> <p class="type-002" > veneno</p>
+    </div>
+
+    <div>
+      <p>004</p><h4>Charmander</h4>
+      <div class="imgpokemon"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png" alt="">
+      </div>
+      <p class="type-003" >Fuego</p>
+    </div>
+
+    <div>
+      <p>005</p><h4>Charmeleon</h4>
+      <div class="imgpokemon"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/005.png" alt="">
+      </div>
+      <p class="type-003" >Fuego</p>
+    </div>
+
+    <div>
+      <p>006</p><h4>Charizard</h4>
+      <div class="imgpokemon"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/006.png" alt="">
+      </div>
+      <p class="type-003" >Fuego</p><p class="type-004" >Volador</p>
+    </div>
+
+    <div>
+      <p>007</p><h4>Squirtle</h4> 
+        <div class="imgpokemon"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png" alt="">
+        </div>
+        <p class="type-005" >Agua</p>
+      </div>
+
+    <div>
+      <p>008</p><h4>Wartortle</h4>
+      <div class="imgpokemon"><img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/008.png" alt="">
+      </div>
+      <p class="type-005" >Agua</p>
+    </div>
+
+    <div>
+      <p>009</p><h4>Blastoise</h4>
+      <div class="imgpokemon" > <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/009.png" alt="">
+      </div>
+      <p class="type-005" >Agua</p>
+    </div>
+
+  </main>
+</body>
+</html>
